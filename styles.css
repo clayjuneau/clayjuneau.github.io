@@ -1,0 +1,156 @@
+html{
+    cursor: url('cur-dark.png'), auto;	
+    min-width: 980px;
+}
+
+#main h1, #aboutme h1, #profimage h1, #portfolio h1, #service h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    max-width: 700px;
+}
+
+#main p, #aboutme p, #profimage p, #portfolio p, #service p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+#resume {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#aboutme #status, #profimage #status {
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#aboutme, #profimage, #portfolio, #service {
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+#main {
+    margin-left: 10%;
+    margin-top: 3%;
+    max-width: 800px;
+    margin-right: 10%;
+}
+
+#main a:hover, #aboutme a:hover, #portfolio a:hover, #profimage a:hover, #service a:hover {
+    opacity: 1.0;
+    background-image: linear-gradient(transparent 10px, #ffee008c 10px);
+    text-decoration: none;
+}
+
+#resumetext a:hover{
+    opacity: 1.0;
+    background-image: linear-gradient(transparent 10px, #ffee008c 10px);
+    text-decoration: none;
+}
+
+#resume a:hover{
+    opacity: 1.0;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    opacity: 1;
+}
+#main a, #resume a{
+    color: black;
+}
+
+#tamu {
+    color: #500000;
+}
+#ov {
+    color: #0A26A4;
+}
+#tbarm {
+    color: #F95936;
+}
+#blueprint{
+    color: #669395;
+}
+#sos{
+    color: #9AC141;
+}
+#lego{
+    color: #E3000B;
+}
+
+#howdy {
+    text-shadow:
+    -1px 1px #ffee00, 
+    -2px 2px #ffee00, 
+    -3px 3px #ffee00,
+    -4px 4px #ffee00;
+}
+
+#doingthings {
+    color: white;
+    background-image: linear-gradient(transparent 0px, #0A26A4 0px);		
+}
+
+#profpic {
+    border-radius: 50%;
+}
+
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#contact-footer {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 2%;
+    width: 100%;
+}
+
+#instagram:hover {
+    background-image: linear-gradient(transparent 10px, #FFDC80 10px);		
+}
+
+#linkedin:hover {
+    background-image: linear-gradient(transparent 10px, black 10px);	
+}
+
+#github:hover {
+    background-image: linear-gradient(transparent 10px, #6cc644 10px);	
+}
+
+#email:hover {
+    background-image: linear-gradient(transparent 10px, #DB4437 10px);	
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
