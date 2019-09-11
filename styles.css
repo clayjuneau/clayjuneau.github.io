@@ -41,6 +41,8 @@ html{
     margin-right: 10%;
 }
 #main {
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top: 3%;
     max-width: 800px;
 }
