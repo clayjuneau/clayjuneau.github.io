@@ -1,9 +1,9 @@
 html{
     cursor: url('cur-dark.png'), auto;	
-    min-width: 980px;
+    min-width: 629px;
 }
 
-@media (max-width:629px) {
+@media (max-width:900px) {
     img#profpic {
       display: none;
     }
