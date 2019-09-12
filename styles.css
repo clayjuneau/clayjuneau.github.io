@@ -3,6 +3,12 @@ html{
     min-width: 980px;
 }
 
+@media (max-width:629px) {
+    img#profpic {
+      display: none;
+    }
+  }
+
 #main h1, #aboutme h1, #profimage h1, #portfolio h1, #service h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
