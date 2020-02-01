@@ -42,6 +42,115 @@
                     </p>
                     <a href="https://clayjuneau.com/Kiteflite" target="_blank">VISIT WEBSITE&nbsp&nbsp<i class="fas fa-external-link-alt fa-sm"></i></a>
                 </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <ol style="margin-left: 30%; margin-top: 10%">
+                        <li><a href="#challenge">Challenge</a></li>
+                        <li><a href="#discovery">Discovery</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#outcome">Outcome</a></li>
+                    </ol>
+                </div>
+            </div>
+            <br><hr><br>
+        </div>
+
+        <div id="challenge" class="container">
+            <h1>The Challenge</h1>
+            <br>
+            <p>
+                My team of three students were tasked to create a mashup web application in four weeks during a Software Engineering Studio course at Texas A&M University in the Fall of 2019.
+                Often times the conditions outside are not optimal to fly a kite. <mark>We saw a need for an all-in-one application to find a location with perfect kite-flying weather and provide the user with flight itinerary to get there.</mark>
+            </p>
+            <br>
+            <h3>My Role</h3>
+            <p>
+                With a small team of three students, we each played a big role throughout the full stack of design and development. I focused on <mark>integrating the APIs to communicate with one another as well as implementing the information to the front-end user interface.</mark> 
+                <a class="inline" href="https://www.linkedin.com/in/ryan-cohen-6186a2161/" target="_blank">Ryan Cohen</a> took on the role of project manager to keep the team on top of deadlines and version launches, and <a class="inline" href="https://www.linkedin.com/in/priyanka-paul-a7bb81145/" target="_blank">Priyanka Paul</a> assisted me in the back-end implementation of the APIs.
+            </p>
+            <br><hr><br>
+        </div>
+
+        <div id="discovery" class="container">
+            <h1>The Discovery</h1>
+            <br>
+            <h3>User Stories</h3>
+            <p>In order to develop an impactful and usable web application, we needed to first understand our users and stakeholders. <mark>We came up with user stories as an end goal that articulates what value our project will bring to our users.</mark></p>
+            <br>
+            <ul>
+                <li>As an avid kite enthusiast, I want to know a location that has optimal flying weather when my current location does not so that I can fly my kite whenever I want.</li>
+                <li>As an avid kite enthusiast, I want to know the best park and highly rated nearby cafe in my destination so I can be more familiar with the city when I arrive.</li>
+                <li>As a user largely unfamiliar with kites, I want to be informed on what type of weather I should be flying my type of kite in so that I can have the best experience when I fly my kite.</li>
+            </ul>
+            <br><hr><br>
+        </div>
+
+        <div id="process" class="container">
+            <h1>The Process</h1>
+            <br>
+            <p>We started by writing a <mark>high-level design proposal</mark> of our product where we discussed our goal of desired functionality, stretch goals, and fallback goals. We <mark>developed sprint backlog</mark> that we would refer to when delegating and accomplishing tasks throughout each Scrum sprint. Lastly, I created an <mark>initial interface wireframe</mark> that we used to visualize our end product.</p>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
+                    <img class="center" src="kiteflite/initialsketch.jpg" style="max-width: 60%; max-height: 80%;">
+                    <sub>Initial interface</sub>
+                </div>
+            </div>
+            <h3>User Studies</h3>
+            <p>With our basic interface implemented, we conducted a series of <mark>user studies to understand how our target users interact with our product and make improvements based on what we observe.</mark></p>
+            <br>
+            <p>The first was an <mark>online survey</mark> in which users interacted with our interface and rate statements based on how much they agreed with them on a 1-5 scale. They also had an option to input qualitative feedback on changes they would like to see.</p>
+            <br>
+            <p>The second was a series of <mark>contextual interviews</mark> that we conducted with 5 users. We started by asking questions about the user’s background, pain points, frustrations, goals, and needs associated with our product. Then, we observed the users as they interacted with our interface.</p>
+            <br>
+            <p>From our user studies, we concluded that <mark>we needed to address accessibility of our product</mark> for users that are visually impaired or colorblind. We also found that we needed to <mark>streamline the user’s journey</mark> by making it obvious what information was needed and what had to be clicked in order for a result to appear.</p>
+            <br>
+
+            <h3>Development</h3>
+            <p>Once we determined our functionality and usability goals through user research, we were able to start the development process. Following the Agile Scrum methodology, we split our development timeline into three Sprints in which we would have a product launch and Sprint retrospective at the end of each.</p>
+            <br>
+            <p>We used <a class="inline" href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</a> to gather current weather data from cities around the United States, and we determined the most ideal city to fly a user-inputted kite type based on optimal weather conditions. Next, we utilized <a class="inline" href="https://www.partners.skyscanner.net/affiliates/travel-apis" target="_blank">Skyscanner API</a> to find same-day flight itinerary from the user’s current location to the calculated destination. Lastly, the <a class="inline" href="https://www.yelp.com/developers" target="_blank">Yelp API</a> was used to find a highly rated park and café in that destination.</p>
+            <br>
+            <p>When the back-end was complete, we <mark>refined our front-end interface</mark> based off the conclusions of our user research. We implemented more instructions on what information is required from the users as well as an option for dark mode for higher accessibility.</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <img src="kiteflite/light.jpg" style="max-width: 100%; max-height: 100%;">
+                    <sub>Light mode</sub>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <img src="kiteflite/dark.jpg" style="max-width: 100%; max-height: 100%;">
+                    <sub>Dark mode</sub>
+                </div>
+            </div>
+            <br>
+            <p><em>All of the code is available on <a class="inline" href="https://github.com/clayjuneau/Kiteflite" target="_blank">GitHub</a>!</em></p>
+            <br><hr><br>
+        </div>
+
+        <div id="outcome" class="container">
+            <h1>The Outcome</h1>
+            <br>
+            <p><em><mark>Great, not perfect. Always room for improvement.</mark></em></p>
+            <br>
+            <p>Staying on top of our deadlines, we launched a functional product that is accessible to many users. Our team successfully presented, demonstrated, and answered questions about our project and process in front of 100+ students and professors.</p>
+            
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 section-br-small"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 footer">
+                    <h5 class="card-subtitle">Designed and Coded with ♥ by Clay Juneau</h5>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <a class="links" href="ClayJuneauResume.pdf" target="_blank">Resume</a>
+                        <a class="links" href="https://linkedin.com/in/clayjuneau" target="_blank">LinkedIn</a>
+                        <a class="links"  href="https://github.com/clayjuneau" target="_blank">GitHub</a class="links">
+                        <a class="links"  href="mailto:hello@clayjuneau.com" target="_blank">hello@clayjuneau.com</a class="links">
+                    </div>
+                </div>
             </div>
         </div>
 
