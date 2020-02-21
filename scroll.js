@@ -1,8 +1,16 @@
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
+// Credit to Nilay Vishwakarma www.nilayvishwakarma.com
+document.addEventListener(
+  "scroll",
+  function() {
+    var scrollTop =
+      document.documentElement["scrollTop"] || document.body["scrollTop"];
+    var scrollBottom =
+      (document.documentElement["scrollHeight"] ||
+        document.body["scrollHeight"]) - document.documentElement.clientHeight;
+    scrollPercent = scrollTop / scrollBottom * 100 + "%";
+    document
+      .getElementById("_progress")
+      .style.setProperty("--scroll", scrollPercent);
+  },
+  { passive: true }
+);

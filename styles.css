@@ -89,6 +89,17 @@ img.center {
   margin: 0 auto;
 }
 
+/* Credit to Nilay Vishwakarma www.nilayvishwakarma.com */
+#_progress {
+  --scroll: 0%;
+  background: linear-gradient(to right,rgb(158, 235, 207) var(--scroll),transparent 0);
+  position: fixed;
+  width: 100%;
+  height: 5px;
+  top:0px;
+  z-index: 100;
+}
+
 a:not(.card-link) {
     color: var(--primary-text);
     font-weight: bold;
@@ -139,20 +150,6 @@ p.case-head{
   padding: 15px;
   border-radius: 16px;
   margin: 1% 3% 1% 3%;
-}
-
-/* The progress container (grey background) */
-.progress-container {
-  width: 100%;
-  height: 2px;
-  background: var(--primary-inactive);
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 4px;
-  background: var(--highlight-green);
-  width: 0%;
 }
 
 mark{
