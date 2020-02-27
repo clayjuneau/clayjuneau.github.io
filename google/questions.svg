@@ -1,48 +1,130 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="640" viewBox="0 0 360 640">
   <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Questions_);
+      }
+
+      .cls-10, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8 {
+        fill: #fdfeff;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-width: 2px;
+        opacity: 0.499;
+      }
+
+      .cls-4, .cls-8 {
+        font-size: 20px;
+      }
+
+      .cls-4 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-5 {
+        font-size: 30px;
+      }
+
+      .cls-12, .cls-5 {
+        font-family: Roboto-Medium, Roboto;
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        fill: #70d5aa;
+      }
+
+      .cls-8 {
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-10 {
+        fill-rule: evenodd;
+        opacity: 0.54;
+      }
+
+      .cls-11 {
+        opacity: 0.132;
+      }
+
+      .cls-12, .cls-15 {
+        fill: #fff;
+      }
+
+      .cls-12 {
+        font-size: 14px;
+      }
+
+      .cls-13 {
+        fill: rgba(255,255,255,0.9);
+      }
+
+      .cls-14 {
+        fill: rgba(255,255,255,0.3);
+      }
+
+      .cls-15 {
+        opacity: 0.9;
+      }
+
+      .cls-16 {
+        fill: #11b28e;
+      }
+    </style>
     <clipPath id="clip-path">
-      <rect width="24" height="24" fill="none"/>
+      <rect class="cls-1" width="24" height="24"/>
     </clipPath>
     <clipPath id="clip-Questions_">
       <rect width="360" height="640"/>
     </clipPath>
   </defs>
-  <g id="Questions_" data-name="Questions " clip-path="url(#clip-Questions_)">
-    <rect width="360" height="640" fill="#11b28e"/>
+  <g id="Questions_" data-name="Questions " class="cls-2">
+    <rect class="cls-16" width="360" height="640"/>
     <g id="hint_text_1_light" transform="translate(-23 286)">
-      <path id="text_path" d="M281.7.5H0V0H281.7Z" transform="translate(63 62.5)" fill="#fdfeff" stroke="#fff" stroke-width="2" opacity="0.499"/>
-      <text id="hint_text" transform="translate(63 52)" fill="#fdfeff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Jogging, piano, etc.</tspan></text>
+      <path id="text_path" class="cls-3" d="M281.7.5H0V0H281.7Z" transform="translate(63 62.5)"/>
+      <text id="hint_text" class="cls-4" transform="translate(63 52)"><tspan x="0" y="0">Jogging, piano, etc.</tspan></text>
     </g>
     <text id="What_are_some_of_your_interests_" data-name="What are some of your 
-interests?" transform="translate(25 173)" fill="#fdfeff" font-size="30" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">What are some of your </tspan><tspan x="0" y="35">interests?</tspan></text>
+interests?" class="cls-5" transform="translate(25 173)"><tspan x="0" y="0">What are some of your </tspan><tspan x="0" y="35">interests?</tspan></text>
     <g id="Group_9" data-name="Group 9" transform="translate(0 4.126)">
-      <rect id="Rectangle_184" data-name="Rectangle 184" width="360" height="11" transform="translate(0 624.874)" fill="#70d5aa"/>
-      <rect id="Rectangle_185" data-name="Rectangle 185" width="77" height="11" transform="translate(0 624.874)" fill="#fdfeff"/>
+      <rect id="Rectangle_184" data-name="Rectangle 184" class="cls-6" width="360" height="11" transform="translate(0 624.874)"/>
+      <rect id="Rectangle_185" data-name="Rectangle 185" class="cls-7" width="77" height="11" transform="translate(0 624.874)"/>
     </g>
     <g id="Group_12" data-name="Group 12" transform="translate(-9.5 17)">
-      <text id="_5_20" data-name="5 / 20" transform="translate(189 582)" fill="#fdfeff" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-25.928" y="0">5 / 20</tspan></text>
+      <text id="_5_20" data-name="5 / 20" class="cls-8" transform="translate(189 582)"><tspan x="-25.928" y="0">5 / 20</tspan></text>
     </g>
-    <g id="ic_chevron_right" transform="translate(309 582)" clip-path="url(#clip-path)">
-      <rect id="rectangle" width="24" height="24" fill="none"/>
-      <path id="path" d="M8.6,7.4,10,6l6,6-6,6L8.6,16.6,13.2,12Z" fill="#fdfeff" fill-rule="evenodd" opacity="0.54"/>
+    <g id="ic_chevron_right" class="cls-9" transform="translate(309 582)">
+      <rect id="rectangle" class="cls-1" width="24" height="24"/>
+      <path id="path" class="cls-10" d="M8.6,7.4,10,6l6,6-6,6L8.6,16.6,13.2,12Z"/>
     </g>
-    <g id="ic_chevron_left" transform="translate(27 582)" clip-path="url(#clip-path)">
-      <rect id="rectangle-2" data-name="rectangle" width="24" height="24" fill="none"/>
-      <path id="path-2" data-name="path" d="M15.4,7.4,14,6,8,12l6,6,1.4-1.4L10.8,12Z" fill="#fdfeff" fill-rule="evenodd" opacity="0.54"/>
+    <g id="ic_chevron_left" class="cls-9" transform="translate(27 582)">
+      <rect id="rectangle-2" data-name="rectangle" class="cls-1" width="24" height="24"/>
+      <path id="path-2" data-name="path" class="cls-10" d="M15.4,7.4,14,6,8,12l6,6,1.4-1.4L10.8,12Z"/>
     </g>
     <g id="sysbar_dark" data-name="sysbar dark">
-      <rect id="rectangle-3" data-name="rectangle" width="360" height="24" opacity="0.132"/>
-      <rect id="sysbar" width="118" height="24" transform="translate(242)" fill="none"/>
-      <text id="sysbar_time" data-name="sysbar time" transform="translate(317 17)" fill="#fff" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">12:30</tspan></text>
+      <rect id="rectangle-3" data-name="rectangle" class="cls-11" width="360" height="24"/>
+      <rect id="sysbar" class="cls-1" width="118" height="24" transform="translate(242)"/>
+      <text id="sysbar_time" data-name="sysbar time" class="cls-12" transform="translate(317 17)"><tspan x="0" y="0">12:30</tspan></text>
       <g id="sysbar_battery" data-name="sysbar battery" transform="translate(-42 -378)">
-        <rect id="rectangle-4" data-name="rectangle" width="8.615" height="3.231" transform="translate(342 393.769)" fill="rgba(255,255,255,0.9)"/>
-        <rect id="rectangle-5" data-name="rectangle" width="8.615" height="3.231" transform="translate(342 390.538)" fill="rgba(255,255,255,0.9)"/>
-        <rect id="rectangle-6" data-name="rectangle" width="8.615" height="3.231" transform="translate(342 387.308)" fill="rgba(255,255,255,0.3)"/>
-        <rect id="rectangle-7" data-name="rectangle" width="8.615" height="3.231" transform="translate(342 384.077)" fill="rgba(255,255,255,0.3)"/>
-        <rect id="rectangle-8" data-name="rectangle" width="4.308" height="1.077" transform="translate(344.154 383)" fill="rgba(255,255,255,0.3)"/>
+        <rect id="rectangle-4" data-name="rectangle" class="cls-13" width="8.615" height="3.231" transform="translate(342 393.769)"/>
+        <rect id="rectangle-5" data-name="rectangle" class="cls-13" width="8.615" height="3.231" transform="translate(342 390.538)"/>
+        <rect id="rectangle-6" data-name="rectangle" class="cls-14" width="8.615" height="3.231" transform="translate(342 387.308)"/>
+        <rect id="rectangle-7" data-name="rectangle" class="cls-14" width="8.615" height="3.231" transform="translate(342 384.077)"/>
+        <rect id="rectangle-8" data-name="rectangle" class="cls-14" width="4.308" height="1.077" transform="translate(344.154 383)"/>
       </g>
-      <path id="sysbar_status_2" data-name="sysbar status 2" d="M19.8,14h14V0Z" transform="translate(257.7 5)" fill="#fff" opacity="0.9"/>
-      <path id="sysbar_wifi" data-name="sysbar wifi" d="M8.8,14,17.6,3.1A14.04,14.04,0,0,0,0,3.1L8.8,14Z" transform="translate(257.5 5)" fill="#fff" opacity="0.9"/>
+      <path id="sysbar_status_2" data-name="sysbar status 2" class="cls-15" d="M19.8,14h14V0Z" transform="translate(257.7 5)"/>
+      <path id="sysbar_wifi" data-name="sysbar wifi" class="cls-15" d="M8.8,14,17.6,3.1A14.04,14.04,0,0,0,0,3.1L8.8,14Z" transform="translate(257.5 5)"/>
     </g>
   </g>
 </svg>
