@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155864934-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155864934-1');
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Clay Juneau</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.typekit.net/mhe1vhh.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="fonts.css">
+        <script src="https://kit.fontawesome.com/85c6b76167.js" crossorigin="anonymous"></script>
+        <script src="scroll.js"></script>
+    </head>
+    <body>
+
+        <div id="_progress"></div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 section-br-small"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <a href="index.html"><i class="fas fa-angle-double-left"></i> Back</a>
+            </div>
+        </div>
+        
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 case-head">
+                    <h2 class="header"><span class="">MentMatch</span></h2>
+                    <p class="case-head">A project for the 2020 Google Design Exercise. <br><br>
+                        I will walk through my design process and elaborate on my design decisions while completing this exercise.<br><br>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <ol style="margin-left: 30%; margin-top: 10%">
+                        <li><a href="#challenge">Challenge</a></li>
+                        <li><a href="#discovery">Research</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#outcome">Stretch Goals</a></li>
+                    </ol>
+                </div>
+            </div>
+            <br><hr><br>
+        </div>
+
+        <div id="challenge" class="container">
+            <h1>The Challenge</h1>
+            <br>
+            <p class="quote">" Your school wants to strengthen the community by encouraging experienced students to connect with new students and help them adjust to campus life. Design an experience that allows mentors and mentees to discover each other. Consider the needs of both mentors and mentees, including how someone may become a mentor and how to connect mentors to mentees. "</p>
+            
+            <br><hr><br>
+        </div>
+
+        <div id="discovery" class="container">
+            <h1>Research</h1>
+            <br>
+            <p>I started out by brainstorming what I wanted the experience of finding a mentor or mentee to be. I did research on competitor products and took note of aspects that I liked and didn’t like about their design. Seeking a broad overview of my design, I jotted down what information, content, and features my app would need.</p>
+            <br>
+            <p>Before attempting to solve any problem, we should take a closer look into the issue at hand.</p>
+            <br>
+            <h3>Finding the Problem</h3>
+            <p>We want to make it strengthen the community of students at my school by providing an experience for people to create mentor / mentee relationships. The current underlying problem is that students are not seeking each other out to make these connections.</p>
+            <br>
+            <p>Why are people not seeking to create these relationships? As I discovered in this research phase, students are overwhelmed by the amount of opportunities to meet people or students feel like their need for mentorship is unreciprocated.</p>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img src="google/research1.jpg" style="max-width: 100%; max-height: 100%;">
+                    <sub>Subject issues</sub>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img src="google/research2.jpg" style="max-width: 100%; max-height: 100%;">
+                    <sub>UI / Filters</sub>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img src="google/research3.jpg" style="max-width: 100%; max-height: 100%;">
+                    <sub>Google integration</sub>
+                </div>
+            </div>
+            <br><br>
+            <h3>Solving the Problem</h3>
+            <p>With these discoveries in mind, I decided to come up with a central goal for the app.</p>
+            <br>
+            <p style="font-weight: bolder; font-style: italic;">Get mentors to find mentees and get mentees to find mentors.</p>
+            <br>
+            <p>In order to achieve this goal, I created three goals that I would focus on:</p>
+            <ol style="padding-left: 10%">
+                <li style="font-weight: bolder;">Allow users to start finding matches instantly</li>
+                <li style="font-weight: bolder;">Provide information for users to find the best match possible</li>
+                <li style="font-weight: bolder;">Make the journey from sign up to match simple and clear</li>
+            </ol>
+            <br>
+            <p>Now that we know what the problem is and our approach to solving it, we can start the design process.</p>
+            <br><hr><br>
+        </div>
+
+        <div id="process" class="container">
+            <h1>The Process</h1>
+            <br>
+            <h3>Sketches and Wireframes</h3>
+            <br>
+            <p>The research was thorough enough to know what main information, content, and features my app would require, so I started with a quick sketch to map out the user flow.</p>
+            <br>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img src="google/wireframesketch.jpg" style="max-width: 100%; max-height: 100%;">
+                    <sub>User flow</sub>
+                </div>
+            </div>
+            <br><br>
+            <p>After a few more iterations of the user flow on paper, I took the design to Adobe XD where I could develop a low fidelity wireframe.</p>
+            <br>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img src="google/wireframelofi.png" style="max-width: 100%; max-height: 100%;">
+                    <sub>Low fidelity wireframe</sub>
+                </div>
+            </div>
+            <br><br>
+            <p>The overall user journey can be split up in three main stages. The user’s profile including the initial profile creation, exploring other profiles, and contacting a suitable match. The tabs located in the bottom navigation bar makes transitioning between stages fluid. This clear and simple navigation contributes to goal #3.</p>
+            <br>
+            <p>Since messaging and saving profiles works similarly to other applications with the same features, I won’t go into detail about how they function.</p>
+            <br>
+            <p>Let’s discuss the most important sections in the user flow.</p>
+            <br>
+
+            <h3>Profile Creation</h3>
+            <br>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img src="google/profilecreation.png" style="max-width: 100%; max-height: 100%;">
+                    <sub>Profile creation</sub>
+                </div>
+            </div>
+            <br><br>
+            <p>The welcome screen is fairly simple. The user will get an introduction to the app and immediately be prompted to start setting up a profile based on their user identity.</p>
+            <br>
+            <p>The questionnaire is also simple. Once we’ve identified who our user is, they will begin to answer a series of questions in order to completely fill in their profile based on their answers. The quick automatic profile completion is the largest contributor to goal #1. 
+                When the user finishes their questionnaire, they are instantly ready to start the search for a match. If they desire, users will have the option to update or add to the information that was automatically filled on their profile page. 
+                With goal #3 in mind, the questionnaire splits up the overwhelming stare of a blank profile into approachable questions that users feel comfortable answering one at a time.
+            </p>
+            <br>
+            <p>If the user decides to skip the questionnaire, they are taken to the explore page where they can only view profiles. A notification card urges the user to complete the questionnaire, and it remains there until a profile is created. </p>
+            <br>
+
+            <h3>Explore Page</h3>
+            <br>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <img src="google/explorepage.png" style="max-width: 100%; max-height: 100%;">
+                    <sub>Explore page / profile view</sub>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <p>Like profile creation, the explore page is simple. We do not want any unnecessary distractions for a user trying to achieve their goal of a mentor / mentee.</p>
+                    <br>
+                    <p>Based on the user’s identity chosen on the welcome screen, the explore page will show profiles of the compatible identity. If you are looking to become a mentor, you will see potential mentees. 
+                        If you are looking to become a mentee, you will see potential mentors. In order to achieve goal #2, each profile on the explore page is comprised of compact cards with key information such as name, age, and interests. 
+                    </p>
+                    <br>
+                    <p>Profiles with the closest match to the user’s answered questions will appear at the top, highlighting the reasons they would be a good match. Profiles with little compatibility to the user will not be hidden, they will just appear lower down on the list. Additionally, users have the option to filter results based on desired criteria.</p>
+                </div>
+            </div>
+            <br>
+            <p>In an effort to achieve goals #2 and #3, the full screen profile viewer provides the user with only necessary information to aid the user in moving forward in the process.</p>
+            <br>
+            <p>With a full view of profile information, compatible criteria is highlighted, informing the user why this profile is a good match. Competing products would bombard the user with irrelevant information, making it more difficult to make a decision.</p>
+            <br>
+            <p>Action buttons (share profile, save profile, and message user) are provided at the top of the profile to streamline user flow and help them reach their end goal.</p>
+            <br>
+
+            <h3>High Fidelity</h3>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img src="google/questions.svg" style="max-width: 100%; max-height: 100%;">
+                    <sub>Questionnaire</sub>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="padding-left: 15%; padding-top:10%">
+                    <p>The profile setup contains a lot of questions, so in order to expedite the process and accomplish goal #1, the user should be able to understand what is asked of them quickly. No clutter to get in the way.</p>
+                    <br>
+                    <p>The indicator at the bottom lets the user know how much of the questionnaire is left. If they need to change an answer, the arrows let them navigate seamlessly between questions.</p>
+                </div>
+            </div>
+            <br><p style="font-family: 'Circular Std Thin'; text-align: center; font-size: 25px;">. . .</p><br>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="padding-right: 15%; padding-top:10%">
+                    <p>Since we aren’t designing a dating app, we want the profile picture to take a back seat send relevant information to the front.</p>
+                    <br>
+                    <p>Uniform and clean compact cards display key information allowing users to browse for a match without feeling overwhelmed.</p>
+                    <br>
+                    <p>The cards are clearly marked with overlapping interests between users, so users instantly know who is compatible.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img src="google/explore.svg" style="max-width: 100%; max-height: 100%;">
+                    <sub>Explore page</sub>
+                </div>
+            </div>
+            <br><p style="font-family: 'Circular Std Thin'; text-align: center; font-size: 25px;">. . .</p><br>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img src="google/profileviewer.svg" style="max-width: 100%; max-height: 100%;">
+                    <sub>Profile view</sub>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="padding-left: 15%; padding-top:10%">
+                    <p>Not everyone is as compatible in person as they are on paper. We didn’t want users to be defined by their rating from previous interactions, so we saved it for the full profile view. 
+                        This eliminates users from scrolling too quickly on the explore page, only looking for highly rated matches.</p>
+                    
+                </div>
+            </div>
+
+        </div>
+        <br><hr><br>
+        </div>
+
+        <div id="outcome" class="container">
+            <h1>Stretch Goals</h1>
+            <br>
+            <p>
+                <em><mark>Great, not perfect. Always room for improvement.</mark></em>
+            </p>
+            <br>
+            <p>If I were designing this product as a Google employee, I would extend our goals by taking advantage of the massive Google platform.</p>
+            <br>
+            <p>This app would benefit from numerous Google services and tools, but in particular, Google AI could be incorporated many ways to extend functionality and features of the design.</p>
+            <br>
+            <p>The Google Machine Learning Kit and natural language processing (NLP) could be implemented inside messaging within the app. The NLP APIs could detect the use of toxic or inappropriate phrases that lead to low in-app ratings. Then, Google AI would be able to predict that behavior in conversation and prompt the user to block communication with the other user.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 section-br-small"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 footer">
+                    <h5 class="card-subtitle">Designed and Coded with ♥ by Clay Juneau</h5>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <a class="links" href="ClayJuneauResume.pdf" target="_blank">Resume</a>
+                        <a class="links" href="https://linkedin.com/in/clayjuneau" target="_blank">LinkedIn</a>
+                        <a class="links"  href="https://github.com/clayjuneau" target="_blank">GitHub</a class="links">
+                        <a class="links"  href="mailto:hello@clayjuneau.com" target="_blank">hello@clayjuneau.com</a class="links">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 section-br-small"></div>
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
