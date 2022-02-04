@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script type="text/javascript">
+            function myFunc() {
+                setTimeout(function() {
+                    // Link to the App Store should go here -- only fires if deep link fails  
+                    console.log("here")              
+                    window.location = "https://play.google.com/store/apps/details?id=com.localflavor.consumer";
+                }, 1000);
+            };
+        </script>
+        <a href="com.localflavor://privacy-policy" target="_blank" id="l" onclick="myFunc()">Click Me</a>
+    </body>
+</html>
